@@ -1,0 +1,95 @@
+.card-container {
+    position: relative;
+    width: 100%
+    text-align: cen
+  }
+  .card-image {
+    position: absolute;
+    width: 50%;
+    height: 700px;
+    z-index: -1;
+  }
+  
+  .card-heading {
+    position: absolute;
+    width: 50%;
+    background: black;
+    opacity: 0.3;
+    color: white;
+    top: 20rem;
+    text-align: center;
+    font-size: 1.2em;
+    height:50px;
+
+  }
+
+  .ca {
+    position:absolute;
+    right: 60px;
+    top:10px;
+  }
+
+  .ai {
+    position:absolute;
+    right: 400px;
+    top: 100px;
+  }
+
+  .sam {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+
+  
+  }
+  .ron {
+    position:absolute;
+    right: 400px;
+    top: 160px;
+  }
+
+  .oin {
+    position: absolute;
+    right: 100px;
+    top: 160px;
+
+  }
+
+  .sa {
+    position:absolute;
+    right: 400px;
+    top: 220px;
+  }
+
+  .oi {
+    position: absolute;
+    right: 100px;
+    top: 220px;
+  }
+
+  .btn {
+    position: absolute;
+    right: 300px;
+    top: 300px;
+  }
+
+  input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;  
+  }
+
+  input:valid {
+    border-color: green;
+  }
+
+  input:invalid {
+    border-color: red;
+  }
+
+  .aa {
+    position: absolute;
+    right:300px;
+    top: 350px;
+  }
